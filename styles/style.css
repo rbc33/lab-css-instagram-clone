@@ -71,3 +71,25 @@ body {
 .content h1 {
 	color: #06365f;
 }
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+	list-style: none;
+	z-index: 1;
+	position: relative;
+	height: 1.5rem;
+}
+.footer ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+}
+.footer ul li {
+	color: darkgray;
+	font-size: 0.8em;
+	list-style: none;
+}
