@@ -17,9 +17,11 @@ body {
 	top: 0;
 	z-index: 0;
 }
-.background .blue {
+.shadow {
 	background-image: url('../images/bgtile.png');
-	color: #06365f;
+	background-color: #06365f;
+}
+.background .blue {
 	height: 50vh;
 	width: 100vw;
 }
@@ -39,15 +41,33 @@ body {
 	margin: 10vh 10vw 10vh;
 	gap: 4vw;
 }
-.content {
-	background-color: #fff;
-	border-radius: 5px;
-}
 
 .logo {
-	background-image: url('../images/bgtile.png');
-	color: #06365f;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.login {
+	background-image: url('../images/bgtile.png');
+	background-color: #06365f;
+	color: #fff;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	padding: 0.6em 1.5em;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.content {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 2em;
+}
+
+.content h1 {
+	color: #06365f;
 }
